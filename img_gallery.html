@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="img.css">
+</head>
+<body>
+    <div class="gallery">
+        <img src="C:\Users\sarik\OneDrive\Desktop\23R21A12H1\img1.png" alt="Image 1" class="gallery-item" onclick="openModal(this)">
+        <img src="C:\Users\sarik\OneDrive\Desktop\23R21A12H1\img2.png" alt="Image 2" class="gallery-item" onclick="openModal(this)">
+        <img src="C:\Users\sarik\OneDrive\Desktop\23R21A12H1\img3.png" alt="Image 3" class="gallery-item" onclick="openModal(this)">
+        <img src="C:\Users\sarik\OneDrive\Desktop\23R21A12H1\img4.png" alt="Image 4" class="gallery-item" onclick="openModal(this)">
+        <img src="C:\Users\sarik\OneDrive\Desktop\23R21A12H1\img5.png" alt="Image 5" class="gallery-item" onclick="openModal(this)">
+        <img src="C:\Users\sarik\OneDrive\Desktop\23R21A12H1\img6.png" alt="Image 6" class="gallery-item" onclick="openModal(this)">
+        <img src="C:\Users\sarik\OneDrive\Desktop\23R21A12H1\img7.png" alt="Image 7" class="gallery-item" onclick="openModal(this)">
+        <img src="C:\Users\sarik\OneDrive\Desktop\23R21A12H1\img8.png" alt="Image 8" class="gallery-item" onclick="openModal(this)">
+        <img src="C:\Users\sarik\OneDrive\Desktop\23R21A12H1\img9.png" alt="Image 9" class="gallery-item" onclick="openModal(this)">
+    </div>
+
+    <!-- Modal for viewing larger images -->
+    <div id="myModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="img.js"></script>
+</body>
+</html>
